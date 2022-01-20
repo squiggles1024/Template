@@ -1,0 +1,48 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            //Tasks label in UI
+            "label": "Build Project",
+            //Command interpreted as a shell command
+            "type": "shell",
+            //Command to execute
+            "command": "cmake --build .",
+            //override defaults for cwd, env, or shell. In this case, we want this to be executed from the build folder
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+            //Group this belongs to
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            //scan output console for gcc outputs to populate the 'problems' tab after building
+            "problemMatcher": {
+                "base": "$gcc", 
+                "fileLocation": ["relative", "${workspaceFolder}/build"]
+            }
+        },
+        {
+            //Label in UI
+            "label": "clean & build",
+            //Command interpreted as a shell command
+            "type": "shell",
+            //Command to execute
+            "command": "cmake --build . --clean-first",
+            //override defaults for cwd, env, or shell. In this case, we want this to be executed from the build folder
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+            //Group this belongs to
+            "group": "build",
+            //scan output console for gcc outputs to populate the 'problems' tab after building
+            "problemMatcher": {
+                "base": "$gcc", 
+                "fileLocation": ["relative", "${workspaceFolder}/build"]
+            }
+        }
+    ]
+}
