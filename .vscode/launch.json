@@ -9,7 +9,7 @@
             //cwd - current working directory for finding dependencies and other files
             "cwd": "${workspaceRoot}",
             //program to execute
-            "executable": "./build/mouse_bootloader.elf",
+            "executable": "./build/main.elf",
             //name of the task
             "name": "Debug Microcontroller",
             //either 'launch' or 'attach'
@@ -31,7 +31,7 @@
             //start debug at beginning og main function
             "runToMain": true,
             //filepath of System Viewer file
-            "svdFile": "${workspaceRoot}/device/STM32F411.svd",
+            "svdFile": "${workspaceRoot}/drivers/STM32F411.svd",
             //"rtos": "GDBServer/RTOSPlugin_FreeRTOS",
             "swoConfig": 
             {
