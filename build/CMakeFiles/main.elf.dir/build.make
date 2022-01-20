@@ -27,9 +27,6 @@
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -72,18 +69,18 @@ include CMakeFiles/main.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.elf.dir/flags.make
 
-CMakeFiles/main.elf.dir/application/startup_stm32f412retx.s.obj: CMakeFiles/main.elf.dir/flags.make
-CMakeFiles/main.elf.dir/application/startup_stm32f412retx.s.obj: ../application/startup_stm32f412retx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object CMakeFiles/main.elf.dir/application/startup_stm32f412retx.s.obj"
-	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/main.elf.dir/application/startup_stm32f412retx.s.obj -c C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/application/startup_stm32f412retx.s
+CMakeFiles/main.elf.dir/application/startup_stm32f411ceux.s.obj: CMakeFiles/main.elf.dir/flags.make
+CMakeFiles/main.elf.dir/application/startup_stm32f411ceux.s.obj: ../application/startup_stm32f411ceux.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object CMakeFiles/main.elf.dir/application/startup_stm32f411ceux.s.obj"
+	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/main.elf.dir/application/startup_stm32f411ceux.s.obj -c C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/application/startup_stm32f411ceux.s
 
-CMakeFiles/main.elf.dir/application/startup_stm32f412retx.s.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/main.elf.dir/application/startup_stm32f412retx.s.i"
-	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/application/startup_stm32f412retx.s > CMakeFiles/main.elf.dir/application/startup_stm32f412retx.s.i
+CMakeFiles/main.elf.dir/application/startup_stm32f411ceux.s.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/main.elf.dir/application/startup_stm32f411ceux.s.i"
+	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/application/startup_stm32f411ceux.s > CMakeFiles/main.elf.dir/application/startup_stm32f411ceux.s.i
 
-CMakeFiles/main.elf.dir/application/startup_stm32f412retx.s.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/main.elf.dir/application/startup_stm32f412retx.s.s"
-	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/application/startup_stm32f412retx.s -o CMakeFiles/main.elf.dir/application/startup_stm32f412retx.s.s
+CMakeFiles/main.elf.dir/application/startup_stm32f411ceux.s.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/main.elf.dir/application/startup_stm32f411ceux.s.s"
+	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/application/startup_stm32f411ceux.s -o CMakeFiles/main.elf.dir/application/startup_stm32f411ceux.s.s
 
 CMakeFiles/main.elf.dir/application/main.c.obj: CMakeFiles/main.elf.dir/flags.make
 CMakeFiles/main.elf.dir/application/main.c.obj: ../application/main.c
@@ -115,19 +112,19 @@ CMakeFiles/main.elf.dir/drivers/system_stm32f4xx.c.s: cmake_force
 
 # Object files for target main.elf
 main_elf_OBJECTS = \
-"CMakeFiles/main.elf.dir/application/startup_stm32f412retx.s.obj" \
+"CMakeFiles/main.elf.dir/application/startup_stm32f411ceux.s.obj" \
 "CMakeFiles/main.elf.dir/application/main.c.obj" \
 "CMakeFiles/main.elf.dir/drivers/system_stm32f4xx.c.obj"
 
 # External object files for target main.elf
 main_elf_EXTERNAL_OBJECTS =
 
-main.elf: CMakeFiles/main.elf.dir/application/startup_stm32f412retx.s.obj
+main.elf: CMakeFiles/main.elf.dir/application/startup_stm32f411ceux.s.obj
 main.elf: CMakeFiles/main.elf.dir/application/main.c.obj
 main.elf: CMakeFiles/main.elf.dir/drivers/system_stm32f4xx.c.obj
 main.elf: CMakeFiles/main.elf.dir/build.make
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable main.elf"
-	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/arm-none-eabi-gcc.exe" -mcpu=cortex-m4 -TC:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/drivers/STM32F412RETX_FLASH.ld --specs=nosys.specs -Wl,-Map=main.map,--cref -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group $(main_elf_OBJECTS) $(main_elf_EXTERNAL_OBJECTS) -o main.elf 
+	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/arm-none-eabi-gcc.exe" -mcpu=cortex-m4 -TC:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/drivers/STM32F411CEUX_FLASH.ld --specs=nosys.specs -Wl,-Map=main.map,--cref -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group $(main_elf_OBJECTS) $(main_elf_EXTERNAL_OBJECTS) -o main.elf 
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/arm-none-eabi-size" main.elf
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/arm-none-eabi-objcopy" -O srec --srec-len=64 main.elf main.s19
 	"C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/arm-none-eabi-objcopy" -O ihex main.elf main.hex

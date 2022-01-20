@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.elf.dir/application/main.c.obj"
   "CMakeFiles/main.elf.dir/application/main.c.obj.d"
-  "CMakeFiles/main.elf.dir/application/startup_stm32f412retx.s.obj"
+  "CMakeFiles/main.elf.dir/application/startup_stm32f411ceux.s.obj"
   "CMakeFiles/main.elf.dir/drivers/system_stm32f4xx.c.obj"
   "CMakeFiles/main.elf.dir/drivers/system_stm32f4xx.c.obj.d"
   "main.elf"

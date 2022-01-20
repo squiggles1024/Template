@@ -31,9 +31,6 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -156,13 +153,13 @@ application/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/application/main.c.s
 .PHONY : application/main.c.s
 
-application/startup_stm32f412retx.obj: application/startup_stm32f412retx.s.obj
-.PHONY : application/startup_stm32f412retx.obj
+application/startup_stm32f411ceux.obj: application/startup_stm32f411ceux.s.obj
+.PHONY : application/startup_stm32f411ceux.obj
 
 # target to build an object file
-application/startup_stm32f412retx.s.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/application/startup_stm32f412retx.s.obj
-.PHONY : application/startup_stm32f412retx.s.obj
+application/startup_stm32f411ceux.s.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.elf.dir/build.make CMakeFiles/main.elf.dir/application/startup_stm32f411ceux.s.obj
+.PHONY : application/startup_stm32f411ceux.s.obj
 
 drivers/system_stm32f4xx.obj: drivers/system_stm32f4xx.c.obj
 .PHONY : drivers/system_stm32f4xx.obj
@@ -200,7 +197,7 @@ help:
 	@echo "... application/main.obj"
 	@echo "... application/main.i"
 	@echo "... application/main.s"
-	@echo "... application/startup_stm32f412retx.obj"
+	@echo "... application/startup_stm32f411ceux.obj"
 	@echo "... drivers/system_stm32f4xx.obj"
 	@echo "... drivers/system_stm32f4xx.i"
 	@echo "... drivers/system_stm32f4xx.s"

@@ -3,13 +3,13 @@
 
 # compile ASM with C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/arm-none-eabi-gcc.exe
 # compile C with C:/Program Files (x86)/GNU Arm Embedded Toolchain/9 2020-q2-update/bin/arm-none-eabi-gcc.exe
-ASM_DEFINES = -DDEBUG -DSTM32F412Rx
+ASM_DEFINES = -DDEBUG -DSTM32F411xE
 
 ASM_INCLUDES = -IC:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/HAL/CMSIS -IC:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/middlewares -IC:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/drivers -IC:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/board_support -IC:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/HAL
 
 ASM_FLAGS = -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -g3 -c -O0 -ffunction-sections -fdata-sections -fstack-usage --specs=nano.specs -Wall
 
-C_DEFINES = -DDEBUG -DSTM32F412Rx
+C_DEFINES = -DDEBUG -DSTM32F411xE
 
 C_INCLUDES = -IC:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/HAL/CMSIS -IC:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/middlewares -IC:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/drivers -IC:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/board_support -IC:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/HAL
 

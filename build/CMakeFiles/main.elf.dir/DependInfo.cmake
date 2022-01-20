@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/application/startup_stm32f412retx.s" "C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/build/CMakeFiles/main.elf.dir/application/startup_stm32f412retx.s.obj"
+  "C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/application/startup_stm32f411ceux.s" "C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/build/CMakeFiles/main.elf.dir/application/startup_stm32f411ceux.s.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
   "DEBUG"
-  "STM32F412Rx"
+  "STM32F411xE"
   )
 
 # The include file search paths:

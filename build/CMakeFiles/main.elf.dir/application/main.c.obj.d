@@ -1,7 +1,7 @@
 CMakeFiles/main.elf.dir/application/main.c.obj: \
  C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/application/main.c \
  C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/drivers/stm32f4xx.h \
- C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/drivers/stm32f412rx.h \
+ C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/drivers/stm32f411xe.h \
  C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/HAL/CMSIS/core_cm4.h \
  c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\9\ 2020-q2-update\lib\gcc\arm-none-eabi\9.3.1\include\stdint.h \
  c:\program\ files\ (x86)\gnu\ arm\ embedded\ toolchain\9\ 2020-q2-update\arm-none-eabi\include\stdint.h \
