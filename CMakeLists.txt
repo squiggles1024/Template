@@ -8,7 +8,7 @@ set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/toolchain.cmake)                   
 ###############################################################################
 project(main)                                                                                   #@application specific: project name
 set(EXECUTABLE ${PROJECT_NAME}.elf)                                                             #Output executable name
-set(LINKER_FILE ${CMAKE_SOURCE_DIR}/drivers/STM32F412RETX_FLASH.ld)                              #@application specific:Linker script file
+set(LINKER_FILE ${CMAKE_SOURCE_DIR}/drivers/STM32F411CEUX_FLASH.ld)                             #@application specific:Linker script file
 
 ###############################################################################
 # LANGUAGE CONFIG
@@ -31,7 +31,7 @@ set(MIDDLEWARES_DIR "middlewares/")
 set(HAL_DIR "HAL/")
 set(BSP_DIR "board_support/")
 set(SRC_FILES
-        ${APP_SRC_DIR}startup_stm32f412retx.s
+        ${APP_SRC_DIR}startup_stm32f411ceux.s
         ${APP_SRC_DIR}main.c
         ${DRIVERS_DIR}system_stm32f4xx.c
         )
@@ -44,7 +44,7 @@ add_executable(${EXECUTABLE} ${SRC_FILES})
 ###############################################################################
 target_compile_definitions(${EXECUTABLE} PRIVATE
     -DDEBUG 
-    -DSTM32F412Rx                                                                                #@application Specific
+    -DSTM32F411xE                                                                                #@application Specific
     #-DUSE_HAL_DRIVER                                                                            #@application Specific
     )
 

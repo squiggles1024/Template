@@ -23,7 +23,7 @@
             //path to arm toolchain
             "armToolchainPath": "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\9 2020-q2-update\\bin",
             //device being debugged
-            "device": "STM32F412RE",
+            "device": "STM32F411CE",
             //interface: SWD or JTAG
             "interface": "swd",
             //If you have more than one J-Link probe, add the serial number here.
@@ -31,7 +31,7 @@
             //start debug at beginning og main function
             "runToMain": true,
             //filepath of System Viewer file
-            "svdFile": "${workspaceRoot}/device/STM32F412.svd",
+            "svdFile": "${workspaceRoot}/device/STM32F411.svd",
             //"rtos": "GDBServer/RTOSPlugin_FreeRTOS",
             "swoConfig": 
             {
