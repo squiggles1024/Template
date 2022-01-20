@@ -1,3 +1,0 @@
-C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/build/CMakeFiles/main.elf.dir
-C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/build/CMakeFiles/edit_cache.dir
-C:/Users/evanl/OneDrive/Documents/Embedded_Software_Workspaces/Template/build/CMakeFiles/rebuild_cache.dir
